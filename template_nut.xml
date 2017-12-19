@@ -58,7 +58,7 @@
                     <description/>
                     <item_prototypes>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Уровень заряда батарей</name>
+                            <name>UPS {#UPSNAME} battery charge</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -102,7 +102,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME}  Расчётное время работы от батарей</name>
+                            <name>UPS {#UPSNAME} battery runtime</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>1</multiplier>
@@ -114,7 +114,7 @@
                             <status>0</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
-                            <units>мин.</units>
+                            <units>min.</units>
                             <delta>0</delta>
                             <snmpv3_contextname/>
                             <snmpv3_securityname/>
@@ -146,7 +146,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Напряжение батарей</name>
+                            <name>UPS {#UPSNAME} battery voltage</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -190,7 +190,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Имя драйвера NUT</name>
+                            <name>UPS {#UPSNAME} driver name NUT</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -234,7 +234,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Частота на входе</name>
+                            <name>UPS {#UPSNAME} AC input frequency</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -278,7 +278,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Напряжение на входе</name>
+                            <name>UPS {#UPSNAME} AC input voltage</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -322,7 +322,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Напряжение на выходе</name>
+                            <name>UPS {#UPSNAME} AC output voltage</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -366,7 +366,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Тревога 2</name>
+                            <name>UPS {#UPSNAME} alarm 2</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -412,7 +412,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Тревога 3</name>
+                            <name>UPS {#UPSNAME} alarm 3</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -458,7 +458,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Тревога 4</name>
+                            <name>UPS {#UPSNAME} alarm 4</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -504,7 +504,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Тревога 5</name>
+                            <name>UPS {#UPSNAME} alarm 5</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -550,7 +550,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Тревога 6</name>
+                            <name>UPS {#UPSNAME} alarm 6</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -596,7 +596,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Тревога 7</name>
+                            <name>UPS {#UPSNAME} alarm 7</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -642,7 +642,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Тревога 8</name>
+                            <name>UPS {#UPSNAME} alarm 8</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -688,7 +688,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Тревога 9</name>
+                            <name>UPS {#UPSNAME} alarm 9</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -734,7 +734,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Тревога 10</name>
+                            <name>UPS {#UPSNAME} alarm 10</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -780,7 +780,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Тревога</name>
+                            <name>UPS {#UPSNAME} alarm</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -826,7 +826,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Нагрузка</name>
+                            <name>UPS {#UPSNAME} load</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -870,7 +870,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Производитель ИБП</name>
+                            <name>UPS {#UPSNAME} manufacturer</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -914,7 +914,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Модель ИБП</name>
+                            <name>UPS {#UPSNAME} model</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -958,7 +958,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Номинальная нагрузка</name>
+                            <name>UPS {#UPSNAME} nominal wattage</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -1002,7 +1002,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Состояние 2</name>
+                            <name>UPS {#UPSNAME} status 2</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -1048,7 +1048,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Состояние 3</name>
+                            <name>UPS {#UPSNAME} status 3</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -1094,7 +1094,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Состояние 4</name>
+                            <name>UPS {#UPSNAME} status 4</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -1140,7 +1140,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Состояние 5</name>
+                            <name>UPS {#UPSNAME} status 5</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -1186,7 +1186,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Состояние</name>
+                            <name>UPS {#UPSNAME} status</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -1232,7 +1232,7 @@
                             <application_prototypes/>
                         </item_prototype>
                         <item_prototype>
-                            <name>UPS {#UPSNAME} Температура</name>
+                            <name>UPS {#UPSNAME} temperature</name>
                             <type>0</type>
                             <snmp_community/>
                             <multiplier>0</multiplier>
@@ -1289,97 +1289,97 @@
                         </trigger_prototype>
                         <trigger_prototype>
                             <expression>{NUT UPS:upsmon[{#UPSNAME},ups.status].last(0)}=0</expression>
-                            <name>UPS {#UPSNAME} Неизвестное состояние</name>
+                            <name>UPS {#UPSNAME} Unknown status</name>
                             <url/>
                             <status>0</status>
                             <priority>5</priority>
-                            <description>Неизвестное состояние ИБП</description>
+                            <description>UPS status unknown</description>
                             <type>0</type>
                             <dependencies/>
                         </trigger_prototype>
                         <trigger_prototype>
                             <expression>{NUT UPS:upsmon[{#UPSNAME},ups.status].last(0)}=5</expression>
-                            <name>UPS {#UPSNAME} Состояние - Батареи заряжается</name>
+                            <name>UPS {#UPSNAME} status - Battery charging</name>
                             <url/>
                             <status>0</status>
                             <priority>1</priority>
-                            <description>Батареи заряжается</description>
+                            <description>UPS battery charging</description>
                             <type>0</type>
                             <dependencies/>
                         </trigger_prototype>
                         <trigger_prototype>
                             <expression>{NUT UPS:upsmon[{#UPSNAME},ups.status].last(0)}=9</expression>
-                            <name>UPS {#UPSNAME} Состояние - Выключен</name>
+                            <name>UPS {#UPSNAME} status - Switched off</name>
                             <url/>
                             <status>0</status>
                             <priority>5</priority>
-                            <description>ИБП выключен!</description>
+                            <description>UPS switched off!</description>
                             <type>0</type>
                             <dependencies/>
                         </trigger_prototype>
                         <trigger_prototype>
                             <expression>{NUT UPS:upsmon[{#UPSNAME},ups.status].last(0)}=8</expression>
-                            <name>UPS {#UPSNAME} Состояние - Калибровка</name>
+                            <name>UPS {#UPSNAME} status - Calibration</name>
                             <url/>
                             <status>0</status>
                             <priority>1</priority>
-                            <description>Калибровка батарей</description>
+                            <description>UPS battery calibration</description>
                             <type>0</type>
                             <dependencies/>
                         </trigger_prototype>
                         <trigger_prototype>
                             <expression>{NUT UPS:upsmon[{#UPSNAME},ups.status].last(0)}=3</expression>
-                            <name>UPS {#UPSNAME} Состояние - Низкий уровень зарядя батарей</name>
+                            <name>UPS {#UPSNAME} status - Low battery</name>
                             <url/>
                             <status>0</status>
                             <priority>5</priority>
-                            <description>Низкий уровень зарядя батарей</description>
+                            <description>UPS low battery</description>
                             <type>0</type>
                             <dependencies/>
                         </trigger_prototype>
                         <trigger_prototype>
                             <expression>{NUT UPS:upsmon[{#UPSNAME},ups.status].last(0)}=10</expression>
-                            <name>UPS {#UPSNAME} Состояние - Перегрузка</name>
+                            <name>UPS {#UPSNAME} status - overloadа</name>
                             <url/>
                             <status>0</status>
                             <priority>5</priority>
-                            <description>Нагрузка, подключённая к ИБП выше допустимой!</description>
+                            <description>UPS overload!</description>
                             <type>0</type>
                             <dependencies/>
                         </trigger_prototype>
                         <trigger_prototype>
                             <expression>{NUT UPS:upsmon[{#UPSNAME},ups.status].last(0)}=2</expression>
-                            <name>UPS {#UPSNAME} Состояние - Работа от батарей</name>
+                            <name>UPS {#UPSNAME} status - On battery</name>
                             <url/>
                             <status>0</status>
                             <priority>4</priority>
-                            <description>Работа от батарей</description>
+                            <description>UPS on battery</description>
                             <type>0</type>
                             <dependencies/>
                         </trigger_prototype>
                         <trigger_prototype>
                             <expression>{NUT UPS:upsmon[{#UPSNAME},ups.status].last(0)}=11</expression>
-                            <name>UPS {#UPSNAME} Состояние - Режим повышения входного напряжения</name>
+                            <name>UPS {#UPSNAME} status - Trimming incoming voltage</name>
                             <url/>
                             <status>0</status>
                             <priority>4</priority>
-                            <description>Режим повышения входного напряжения</description>
+                            <description>UPS trimming incoming voltage</description>
                             <type>0</type>
                             <dependencies/>
                         </trigger_prototype>
                         <trigger_prototype>
                             <expression>{NUT UPS:upsmon[{#UPSNAME},ups.status].last(0)}=11</expression>
-                            <name>UPS {#UPSNAME} Состояние - Режим понижения входного напряжения</name>
+                            <name>UPS {#UPSNAME} status - Trimming incoming voltage</name>
                             <url/>
                             <status>0</status>
                             <priority>4</priority>
-                            <description>ИБП находится в режиме понижения входного напряжения</description>
+                            <description>UPS trimming incoming voltage</description>
                             <type>0</type>
                             <dependencies/>
                         </trigger_prototype>
                         <trigger_prototype>
                             <expression>{NUT UPS:upsmon[{#UPSNAME},ups.temperature].last(0)}&gt;30</expression>
-                            <name>UPS {#UPSNAME} Температура</name>
+                            <name>UPS {#UPSNAME} Temperature</name>
                             <url/>
                             <status>0</status>
                             <priority>4</priority>
@@ -1389,7 +1389,7 @@
                         </trigger_prototype>
                         <trigger_prototype>
                             <expression>{NUT UPS:upsmon[{#UPSNAME},battery.charge].last(0)}&lt;40</expression>
-                            <name>UPS {#UPSNAME} Уровень зарядя батарей &lt; 40%</name>
+                            <name>UPS {#UPSNAME} Battery level &lt; 40%</name>
                             <url/>
                             <status>0</status>
                             <priority>5</priority>
@@ -1399,7 +1399,7 @@
                         </trigger_prototype>
                         <trigger_prototype>
                             <expression>{NUT UPS:upsmon[{#UPSNAME},battery.charge].last(0)}&lt;90</expression>
-                            <name>UPS {#UPSNAME} Уровень зарядя батарей &lt; 90%</name>
+                            <name>UPS {#UPSNAME} Battery level &lt; 90%</name>
                             <url/>
                             <status>0</status>
                             <priority>1</priority>
@@ -1410,7 +1410,7 @@
                     </trigger_prototypes>
                     <graph_prototypes>
                         <graph_prototype>
-                            <name>UPS {#UPSNAME} Нагрузка</name>
+                            <name>UPS {#UPSNAME} load</name>
                             <width>900</width>
                             <height>200</height>
                             <yaxismin>0.0000</yaxismin>
@@ -1442,7 +1442,7 @@
                             </graph_items>
                         </graph_prototype>
                         <graph_prototype>
-                            <name>UPS {#UPSNAME} Напряжение</name>
+                            <name>UPS {#UPSNAME} input voltage</name>
                             <width>900</width>
                             <height>200</height>
                             <yaxismin>0.0000</yaxismin>
@@ -1486,7 +1486,7 @@
                             </graph_items>
                         </graph_prototype>
                         <graph_prototype>
-                            <name>UPS {#UPSNAME} Температура</name>
+                            <name>UPS {#UPSNAME} temperature</name>
                             <width>900</width>
                             <height>200</height>
                             <yaxismin>0.0000</yaxismin>
@@ -1518,7 +1518,7 @@
                             </graph_items>
                         </graph_prototype>
                         <graph_prototype>
-                            <name>UPS {#UPSNAME} Уровень заряда</name>
+                            <name>UPS {#UPSNAME} battery charge</name>
                             <width>900</width>
                             <height>200</height>
                             <yaxismin>0.0000</yaxismin>
@@ -1550,7 +1550,7 @@
                             </graph_items>
                         </graph_prototype>
                         <graph_prototype>
-                            <name>UPS {#UPSNAME} Частота</name>
+                            <name>UPS {#UPSNAME} AC input frequency</name>
                             <width>900</width>
                             <height>200</height>
                             <yaxismin>0.0000</yaxismin>
@@ -1596,7 +1596,7 @@
             <mappings>
                 <mapping>
                     <value>0</value>
-                    <newvalue>Всё нормально</newvalue>
+                    <newvalue>UNKNOWN_STATUS</newvalue>
                 </mapping>
                 <mapping>
                     <value>1</value>
@@ -2581,31 +2581,31 @@
             <mappings>
                 <mapping>
                     <value>0</value>
-                    <newvalue>Неизвестно</newvalue>
+                    <newvalue>UNKNOWN</newvalue>
                 </mapping>
                 <mapping>
                     <value>1</value>
-                    <newvalue>OL = Работа от сети</newvalue>
+                    <newvalue>OL = On mains power</newvalue>
                 </mapping>
                 <mapping>
                     <value>2</value>
-                    <newvalue>OB = Работа от батарей</newvalue>
+                    <newvalue>OB = On battery</newvalue>
                 </mapping>
                 <mapping>
                     <value>3</value>
-                    <newvalue>LB = Низкий заряд батарей</newvalue>
+                    <newvalue>LB = Low battery</newvalue>
                 </mapping>
                 <mapping>
                     <value>4</value>
-                    <newvalue>RB = Замените бабареи</newvalue>
+                    <newvalue>RB = Replace battery</newvalue>
                 </mapping>
                 <mapping>
                     <value>5</value>
-                    <newvalue>CHRG = Батареи заряжается</newvalue>
+                    <newvalue>CHRG = Battery charging</newvalue>
                 </mapping>
                 <mapping>
                     <value>6</value>
-                    <newvalue>DISCHRG = Батареи разряжаются (работа через инвертор)</newvalue>
+                    <newvalue>DISCHRG = Battery discharging</newvalue>
                 </mapping>
                 <mapping>
                     <value>7</value>
@@ -2613,23 +2613,23 @@
                 </mapping>
                 <mapping>
                     <value>8</value>
-                    <newvalue>CAL = Калибровка времени работы от  батарей</newvalue>
+                    <newvalue>CAL = Battery runtime calibration</newvalue>
                 </mapping>
                 <mapping>
                     <value>9</value>
-                    <newvalue>OFF = ИБП выключен</newvalue>
+                    <newvalue>OFF = UPS off</newvalue>
                 </mapping>
                 <mapping>
                     <value>10</value>
-                    <newvalue>OVER = Перегрузка ИБП</newvalue>
+                    <newvalue>OVER = UPS overload</newvalue>
                 </mapping>
                 <mapping>
                     <value>11</value>
-                    <newvalue>TRIM = Режим понижения входного напряжения</newvalue>
+                    <newvalue>TRIM = Trimming of incoming voltage</newvalue>
                 </mapping>
                 <mapping>
                     <value>12</value>
-                    <newvalue>BOOST = Режим повышения входного напряжения</newvalue>
+                    <newvalue>BOOST = Boosting of incoming voltage</newvalue>
                 </mapping>
             </mappings>
         </value_map>
