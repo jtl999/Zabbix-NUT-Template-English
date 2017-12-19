@@ -1368,16 +1368,6 @@
                             <dependencies/>
                         </trigger_prototype>
                         <trigger_prototype>
-                            <expression>{NUT UPS:upsmon[{#UPSNAME},ups.status].last(0)}=11</expression>
-                            <name>UPS {#UPSNAME} status - Trimming incoming voltage</name>
-                            <url/>
-                            <status>0</status>
-                            <priority>4</priority>
-                            <description>UPS trimming incoming voltage</description>
-                            <type>0</type>
-                            <dependencies/>
-                        </trigger_prototype>
-                        <trigger_prototype>
                             <expression>{NUT UPS:upsmon[{#UPSNAME},ups.temperature].last(0)}&gt;30</expression>
                             <name>UPS {#UPSNAME} Temperature</name>
                             <url/>
