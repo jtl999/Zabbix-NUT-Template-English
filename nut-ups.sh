@@ -280,7 +280,7 @@ ups=$1
 if [ $ups = ups.discovery ]; then
     echo -e "{\n\t\"data\":["
     first=1
-    /bin/upsc -l 2>&1 | grep -v SSL | while read discovered ; do
+    /usr/local/bin/upsc -l 2>&1 | grep -v SSL | while read discovered ; do
         if [ $first -eq 0 ]; then
             echo -e ","
         fi
@@ -292,22 +292,22 @@ else
 
 key=$2
 case $key in
-    ups.status)		state=`/bin/upsc $ups $key 2>&1 | grep -v SSL|awk '{print $1}'`;state_num;exit;;
-    ups.status-2)	state=`/bin/upsc $ups ups.status 2>&1 | grep -v SSL|awk '{print $2}'`;state_num;exit;;
-    ups.status-3)	state=`/bin/upsc $ups ups.status 2>&1 | grep -v SSL|awk '{print $3}'`;state_num;exit;;
-    ups.status-4)	state=`/bin/upsc $ups ups.status 2>&1 | grep -v SSL|awk '{print $4}'`;state_num;exit;;
-    ups.status-5)	state=`/bin/upsc $ups ups.status 2>&1 | grep -v SSL|awk '{print $5}'`;state_num;exit;;
-    ups.alarm )		alarm=`/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $1}'`;alarm_num;exit;;
-    ups.alarm-2)	alarm=`/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $2}'`;alarm_num;exit;;
-    ups.alarm-3)	alarm=`/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $3}'`;alarm_num;exit;;
-    ups.alarm-4)	alarm=`/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $4}'`;alarm_num;exit;;
-    ups.alarm-5)	alarm=`/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $5}'`;alarm_num;exit;;
-    ups.alarm-6)	alarm=`/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $6}'`;alarm_num;exit;;
-    ups.alarm-7)	alarm=`/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $7}'`;alarm_num;exit;;
-    ups.alarm-8)	alarm=`/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $8}'`;alarm_num;exit;;
-    ups.alarm-9)	alarm=`/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $9}'`;alarm_num;exit;;
-    ups.alarm-10)	alarm=`/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $10}'`;alarm_num;exit;;
-    * )			val=`/bin/upsc $ups $key  2>&1 | grep -v SSL`;other_val;exit;;
+    ups.status)		state=`/usr/local/bin/upsc $ups $key 2>&1 | grep -v SSL|awk '{print $1}'`;state_num;exit;;
+    ups.status-2)	state=`/usr/local/bin/upsc $ups ups.status 2>&1 | grep -v SSL|awk '{print $2}'`;state_num;exit;;
+    ups.status-3)	state=`/usr/local/bin/upsc $ups ups.status 2>&1 | grep -v SSL|awk '{print $3}'`;state_num;exit;;
+    ups.status-4)	state=`/usr/local/bin/upsc $ups ups.status 2>&1 | grep -v SSL|awk '{print $4}'`;state_num;exit;;
+    ups.status-5)	state=`/usr/local/bin/upsc $ups ups.status 2>&1 | grep -v SSL|awk '{print $5}'`;state_num;exit;;
+    ups.alarm )		alarm=`/usr/local/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $1}'`;alarm_num;exit;;
+    ups.alarm-2)	alarm=`/usr/local/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $2}'`;alarm_num;exit;;
+    ups.alarm-3)	alarm=`/usr/local/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $3}'`;alarm_num;exit;;
+    ups.alarm-4)	alarm=`/usr/local/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $4}'`;alarm_num;exit;;
+    ups.alarm-5)	alarm=`/usr/local/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $5}'`;alarm_num;exit;;
+    ups.alarm-6)	alarm=`/usr/local/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $6}'`;alarm_num;exit;;
+    ups.alarm-7)	alarm=`/usr/local/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $7}'`;alarm_num;exit;;
+    ups.alarm-8)	alarm=`/usr/local/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $8}'`;alarm_num;exit;;
+    ups.alarm-9)	alarm=`/usr/local/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $9}'`;alarm_num;exit;;
+    ups.alarm-10)	alarm=`/usr/local/bin/upsc $ups ups.alarm 2>&1 | grep -v SSL|awk '{print $10}'`;alarm_num;exit;;
+    * )			val=`/usr/local/bin/upsc $ups $key  2>&1 | grep -v SSL`;other_val;exit;;
 
 esac
 fi
