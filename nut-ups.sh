@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 state_num(){
     case $state in
