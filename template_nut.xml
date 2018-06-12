@@ -158,7 +158,7 @@
                             <status>0</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
-                            <units>В</units>
+                            <units>v</units>
                             <delta>0</delta>
                             <snmpv3_contextname/>
                             <snmpv3_securityname/>
@@ -246,7 +246,7 @@
                             <status>0</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
-                            <units>Гц</units>
+                            <units>Hz</units>
                             <delta>0</delta>
                             <snmpv3_contextname/>
                             <snmpv3_securityname/>
@@ -290,7 +290,7 @@
                             <status>0</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
-                            <units>В</units>
+                            <units>v</units>
                             <delta>0</delta>
                             <snmpv3_contextname/>
                             <snmpv3_securityname/>
@@ -334,7 +334,7 @@
                             <status>0</status>
                             <value_type>0</value_type>
                             <allowed_hosts/>
-                            <units>В</units>
+                            <units>v</units>
                             <delta>0</delta>
                             <snmpv3_contextname/>
                             <snmpv3_securityname/>
@@ -970,7 +970,7 @@
                             <status>0</status>
                             <value_type>3</value_type>
                             <allowed_hosts/>
-                            <units>Вт</units>
+                            <units>w</units>
                             <delta>0</delta>
                             <snmpv3_contextname/>
                             <snmpv3_securityname/>
@@ -1339,7 +1339,7 @@
                         </trigger_prototype>
                         <trigger_prototype>
                             <expression>{NUT UPS:upsmon[{#UPSNAME},ups.status].last(0)}=10</expression>
-                            <name>UPS {#UPSNAME} status - overloadа</name>
+                            <name>UPS {#UPSNAME} status - overload</name>
                             <url/>
                             <status>0</status>
                             <priority>5</priority>
